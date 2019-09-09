@@ -13,5 +13,3 @@ Basic things that I need to add:
 [ ]Custom chat respond to comands.
 
 And some other things I remember after.
-
--
