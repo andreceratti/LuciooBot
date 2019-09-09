@@ -1,6 +1,7 @@
 from Socket import sendMessage
 
 
+#Join the chat room
 def joinRoom(s):
     readbuffer = ""
     loading = True
@@ -13,12 +14,8 @@ def joinRoom(s):
 
         for line in temp:
             print(line)
-#            for line in temp:
-#                if "End of /NAMES list" in line:
-#                    loading = False
-
             loading = loadingComplete(line)
-    sendMessage(s, "TAMO NO CHAT PORRA!")
+    sendMessage(s, "I'm on now!")
 
 
 def loadingComplete(line):
