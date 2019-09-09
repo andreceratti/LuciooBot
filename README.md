@@ -5,8 +5,10 @@ Right now it doesn't do much, only conecct to a server and respond do !fyeah, bu
 
 
 Basic things that I need to add:
+
 -Stream currency
 -Auto moderation
 -Custom chat respond to comands
+
 And some other things I remember after.
 
